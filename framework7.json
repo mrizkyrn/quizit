@@ -1,0 +1,32 @@
+{
+  "cwd": "C:\\Users\\mrizk\\Documents\\Day 7\\Quiz App",
+  "type": [
+    "web",
+    "cordova"
+  ],
+  "name": "Quiz App",
+  "pkg": "io.quizapp.app",
+  "framework": "react",
+  "template": "tabs",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
