@@ -76,13 +76,13 @@ const HomePage = () => (
          <CardContent padding={false}>
             <List mediaList>
                <ListItem title="Data Structures" subtitle="Progress">
-                  <img slot="media" src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44" />
+                  <img slot="media" src="../assets/images/data-structured.jpg" width="44" height="44" />
                </ListItem>
                <ListItem title="Object-Oriented Programming" subtitle="Done">
-                  <img slot="media" src="https://cdn.framework7.io/placeholder/fashion-88x88-5.jpg" width="44" />
+                  <img slot="media" src="../assets/images/oop.jpg" width="44" height="44" />
                </ListItem>
                <ListItem title="CSS Basic" subtitle="Done">
-                  <img slot="media" src="https://cdn.framework7.io/placeholder/fashion-88x88-6.jpg" width="44" />
+                  <img slot="media" src="../assets/images/css.jpg" width="44" height="44" />
                </ListItem>
             </List>
          </CardContent>
@@ -101,7 +101,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/database-management.jpg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -114,10 +114,10 @@ const HomePage = () => (
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -126,7 +126,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/javascript.jpeg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -135,14 +135,14 @@ const HomePage = () => (
                      padding: "0.5rem",
                   }}
                >
-                  <HeaderTitle>Database Management</HeaderTitle>
+                  <HeaderTitle>Javascript Expert</HeaderTitle>
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -151,7 +151,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/data-structured.jpg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -160,14 +160,14 @@ const HomePage = () => (
                      padding: "0.5rem",
                   }}
                >
-                  <HeaderTitle>Database Management</HeaderTitle>
+                  <HeaderTitle>Data Structur</HeaderTitle>
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -182,7 +182,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/data-structured.jpg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -191,14 +191,14 @@ const HomePage = () => (
                      padding: "0.5rem",
                   }}
                >
-                  <HeaderTitle>Database Management</HeaderTitle>
+                  <HeaderTitle>Data Structure</HeaderTitle>
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -207,7 +207,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/oop.jpg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -216,14 +216,14 @@ const HomePage = () => (
                      padding: "0.5rem",
                   }}
                >
-                  <HeaderTitle>Database Management</HeaderTitle>
+                  <HeaderTitle>Object-Oriented Programming</HeaderTitle>
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -232,7 +232,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/database-management.jpg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -245,10 +245,10 @@ const HomePage = () => (
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -263,7 +263,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/javascript.jpeg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -272,14 +272,14 @@ const HomePage = () => (
                      padding: "0.5rem",
                   }}
                >
-                  <HeaderTitle>Database Management</HeaderTitle>
+                  <HeaderTitle>Javascript Basic</HeaderTitle>
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -288,7 +288,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/database-management.jpg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -301,10 +301,10 @@ const HomePage = () => (
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -313,7 +313,7 @@ const HomePage = () => (
                <CardHeader
                   valign="bottom"
                   style={{
-                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundImage: "url(../assets/images/css.jpg)",
                      backgroundPosition: "center",
                      height: "110px",
                      backgroundSize: "cover",
@@ -322,14 +322,14 @@ const HomePage = () => (
                      padding: "0.5rem",
                   }}
                >
-                  <HeaderTitle>Database Management</HeaderTitle>
+                  <HeaderTitle>CSS Advanced</HeaderTitle>
                </CardHeader>
                <CardFooter className="no-padding padding-horizontal">
                   <div>
-                  <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                     <Icon f7="heart" size="15px" color="blue"></Icon>
+                     <Icon f7="bookmark" size="15px" color="blue" style={{ marginLeft: "0.4rem" }}></Icon>
                   </div>
-                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
+                  <p style={{ fontSize: "0.8rem", margin: "0" }}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>

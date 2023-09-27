@@ -38,12 +38,14 @@ const SearchPage = () => {
             <CardHeader
                valign="bottom"
                style={{
-                  backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                  backgroundImage: "url(../assets/images/programming.jpg)",
                   color: "white",
                   height: "100px",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
                }}
             >
-               Journey To Mountains
+               Discover Quiz
             </CardHeader>
          </Card>
 
