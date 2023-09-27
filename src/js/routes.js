@@ -2,9 +2,7 @@
 import HomePage from '../pages/home.jsx';
 import AboutPage from '../pages/about.jsx';
 import FormPage from '../pages/form.jsx';
-import CatalogPage from '../pages/catalog.jsx';
 import SearchPage from '../pages/search.jsx';
-import ProductPage from '../pages/product.jsx';
 import SettingsPage from '../pages/settings.jsx';
 
 import DynamicRoutePage from '../pages/dynamic-route.jsx';
@@ -27,10 +25,6 @@ var routes = [
   {
     path: '/search/',
     component: SearchPage,
-  },
-  {
-    path: '/product/:id/',
-    component: ProductPage,
   },
   {
     path: '/settings/',

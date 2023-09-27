@@ -16,7 +16,6 @@ import {
    Icon,
 } from "framework7-react";
 import HeaderTitle from "../components/HeaderTitle";
-import Popup from "../components/Popup";
 
 const HomePage = () => (
    <Page name="home">
