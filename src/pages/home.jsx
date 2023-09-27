@@ -1,72 +1,312 @@
-import React from 'react';
+import React from "react";
 import {
-  Page,
-  Navbar,
-  NavLeft,
-  NavTitle,
-  NavTitleLarge,
-  NavRight,
-  Link,
-  Toolbar,
-  Block,
-  BlockTitle,
-  List,
-  ListItem,
-  Button
-} from 'framework7-react';
+   Page,
+   Navbar,
+   NavTitle,
+   Block,
+   BlockTitle,
+   List,
+   ListItem,
+   Button,
+   Card,
+   CardHeader,
+   CardContent,
+   CardFooter,
+   Link,
+   Icon,
+} from "framework7-react";
+import HeaderTitle from "../components/HeaderTitle";
+import Popup from "../components/Popup";
 
 const HomePage = () => (
-  <Page name="home">
-    {/* Top Navbar */}
-    <Navbar large sliding={false}>
-      <NavLeft>
-        <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="left" />
-      </NavLeft>
-      <NavTitle sliding>Quiz App</NavTitle>
-      <NavRight>
-        <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right" />
-      </NavRight>
-      <NavTitleLarge>Quiz App</NavTitleLarge>
-    </Navbar>
+   <Page name="home">
+      {/* Top Navbar */}
+      <Navbar sliding={false}>
+         <NavTitle>Quizit</NavTitle>
+      </Navbar>
 
-    {/* Page content */}
-    <Block>
-      <p>This is an example of tabs-layout application. The main point of such tabbed layout is that each tab contains independent view with its own routing and navigation.</p>
+      {/* Page content */}
+      <HeaderTitle sizeLevel={"h3"} style={{ marginTop: "1rem", marginLeft: "1rem" }}>
+         New Quiz
+      </HeaderTitle>
+      <swiper-container pagination class="demo-swiper-multiple" space-between="50">
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(../assets/images/html.jpg)",
+                     backgroundPosition: "center",
+                     height: "150px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                  }}
+               >
+                  HTML Advanced
+               </CardHeader>
+               <CardContent>
+                  <p className="date">Posted on September 21, 2023</p>
+               </CardContent>
+            </Card>
+         </swiper-slide>
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(../assets/images/programming.jpg)",
+                     backgroundPosition: "center",
+                     height: "150px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                  }}
+               >
+                  Basic Programming
+               </CardHeader>
+               <CardContent>
+                  <p className="date">Posted on September 19, 2023</p>
+               </CardContent>
+            </Card>
+         </swiper-slide>
+      </swiper-container>
 
-      <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p>
-    </Block>
-    <BlockTitle>Navigation</BlockTitle>
-    <List strong inset dividersIos>
-      <ListItem link="/about/" title="About"/>
-      <ListItem link="/form/" title="Form"/>
-    </List>
+      <Card title="Your Latest Quiz">
+         <CardContent padding={false}>
+            <List mediaList>
+               <ListItem title="Data Structures" subtitle="Progress">
+                  <img slot="media" src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44" />
+               </ListItem>
+               <ListItem title="Object-Oriented Programming" subtitle="Done">
+                  <img slot="media" src="https://cdn.framework7.io/placeholder/fashion-88x88-5.jpg" width="44" />
+               </ListItem>
+               <ListItem title="CSS Basic" subtitle="Done">
+                  <img slot="media" src="https://cdn.framework7.io/placeholder/fashion-88x88-6.jpg" width="44" />
+               </ListItem>
+            </List>
+         </CardContent>
+         <CardFooter>
+            <span>January 20, 2015</span>
+            <span>5 comments</span>
+         </CardFooter>
+      </Card>
 
-    <BlockTitle>Modals</BlockTitle>
-    <Block className="grid grid-cols-2 grid-gap">
-      <Button fill popupOpen="#my-popup">Popup</Button>
-      <Button fill loginScreenOpen="#my-login-screen">Login Screen</Button>
-    </Block>
+      <HeaderTitle sizeLevel={"h3"} style={{ marginTop: "1rem", marginLeft: "1rem" }}>
+         Recomended For You
+      </HeaderTitle>
+      <swiper-container pagination class="demo-swiper-multiple" slides-per-view="2">
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+      </swiper-container>
 
-    <BlockTitle>Panels</BlockTitle>
-    <Block className="grid grid-cols-2 grid-gap">
-      <Button fill panelOpen="left">Left Panel</Button>
-      <Button fill panelOpen="right">Right Panel</Button>
-    </Block>
+      <HeaderTitle sizeLevel={"h3"} style={{ marginTop: "1rem", marginLeft: "1rem" }}>
+         Most Likes
+      </HeaderTitle>
+      <swiper-container pagination class="demo-swiper-multiple" slides-per-view="2">
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+      </swiper-container>
 
-    <List strong inset dividersIos>
-      <ListItem
-        title="Dynamic (Component) Route"
-        link="/dynamic-route/blog/45/post/125/?foo=bar#about"
-      />
-      <ListItem
-        title="Default Route (404)"
-        link="/load-something-that-doesnt-exist/"
-      />
-      <ListItem
-        title="Request Data & Load"
-        link="/request-and-load/user/123456/"
-      />
-    </List>
-  </Page>
+      <HeaderTitle sizeLevel={"h3"} style={{ marginTop: "1rem", marginLeft: "1rem" }}>
+         Most Views
+      </HeaderTitle>
+      <swiper-container pagination class="demo-swiper-multiple" slides-per-view="2">
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+         <swiper-slide>
+            <Card outlineMd className="demo-card-header-pic">
+               <CardHeader
+                  valign="bottom"
+                  style={{
+                     backgroundImage: "url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)",
+                     backgroundPosition: "center",
+                     height: "110px",
+                     backgroundSize: "cover",
+                     color: "white",
+                     alignItems: "end",
+                     padding: "0.5rem",
+                  }}
+               >
+                  <HeaderTitle>Database Management</HeaderTitle>
+               </CardHeader>
+               <CardFooter>
+                  <Icon f7="heart" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+               </CardFooter>
+            </Card>
+         </swiper-slide>
+      </swiper-container>
+   </Page>
 );
 export default HomePage;
