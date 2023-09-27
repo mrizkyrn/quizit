@@ -88,7 +88,7 @@ const HomePage = () => (
          </CardContent>
          <CardFooter>
             <span>January 20, 2015</span>
-            <span>5 comments</span>
+            <span>See all...</span>
          </CardFooter>
       </Card>
 
@@ -112,9 +112,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -134,9 +137,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -156,9 +162,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -184,9 +193,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -206,9 +218,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -228,9 +243,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -256,9 +274,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -278,9 +299,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
@@ -300,9 +324,12 @@ const HomePage = () => (
                >
                   <HeaderTitle>Database Management</HeaderTitle>
                </CardHeader>
-               <CardFooter>
+               <CardFooter className="no-padding padding-horizontal">
+                  <div>
                   <Icon f7="heart" size="15px" color="blue"></Icon>
-                  <Icon f7="bookmark" size="15px" color="blue"></Icon>
+                  <Icon f7="bookmark" size="15px" color="blue" style={{marginLeft: "0.4rem"}}></Icon>
+                  </div>
+                  <p style={{fontSize: "0.8rem", margin: "0"}}>10 Likes</p>
                </CardFooter>
             </Card>
          </swiper-slide>
